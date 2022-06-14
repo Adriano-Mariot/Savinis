@@ -1,0 +1,57 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:sticky;
+    top: 0px;
+    height: 60px;
+}
+
+/*quadro ------------------------------------------------------- */
+.QCAD{
+    background-color: white;
+    border-style: none;
+    box-shadow: 10px 10px 5px ;
+    height: 360px;
+    position: relative;
+    margin: auto;
+    width: 600px; 
+   }
+
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+th{
+    
+    background-color: rgb(130, 185, 210);
+    border: none;
+    padding: 7px;
+    position:sticky;
+    top:60px;
+}
+td,tr{
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:hover{
+    background-color: rgb(167, 231, 192);
+    cursor: pointer;
+}
+button{
+    background: linear-gradient(to right, rgb(106, 238, 176),rgb(33, 158, 189));
+    border-style: none;
+    padding: 10px;
+}
+button:hover{
+    opacity: 0.5;
+    color: white;
+}

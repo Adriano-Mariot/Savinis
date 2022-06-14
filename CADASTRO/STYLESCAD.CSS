@@ -1,0 +1,80 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*quadro ------------------------------------------------------- */
+.QCAD{
+    background-color: white;
+    border-style: none;
+    box-shadow: 10px 10px 5px ;
+    height: 360px;
+    position: relative;
+    margin: auto;
+    width: 600px; 
+   }
+
+/*botões ----------------------------------------------------------*/
+.buttonSave{
+    background-color: rgb(90, 233, 85);
+    border:none;
+    bottom: 10px;
+    color: white;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    width: 270px;   
+}
+.buttonSave:hover{
+    opacity:0.7;
+}
+.buttonCancel{
+    background-color: rgb(252, 54, 54);
+    border:none;
+    bottom:10px;
+    color: white;
+    left: 280;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    width: 270px;  
+}
+.buttonCancel:hover{
+    opacity:0.7;
+}
+
+/*entrada de dados----------------------------------------------------------*/   
+
+  label{
+    left:0px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+  }
+  input{
+    left:170px;
+    margin: 10px;
+    padding: 10px;
+    position:absolute;
+    text-align: left;
+    width: 380px;
+  }
+  select{
+    left:180px;
+    margin-top: 15px;
+    padding: 10px;
+    position:absolute;
+    text-align: left;
+    width: 405px;
+  }
+  
+
+  

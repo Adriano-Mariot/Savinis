@@ -1,0 +1,36 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+img{
+    margin: 0.5em;   
+}
+input{
+    margin: 0.5em;
+    padding: 5px;
+    outline: none;
+    width: 200px;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button1{
+    margin: 1em;
+    padding: 10px;
+    width: 210px;
+    border:none;
+    background-image:linear-gradient(to right, rgb(106, 238, 176),rgb(33, 158, 189));
+}
+.button1:hover{
+    background-image:none;
+    color: white;
+}
+.cadastro{
+    color: rgb(165, 172, 169);
+}
+.cadastro:hover {
+    color: red;
+}
+
+
